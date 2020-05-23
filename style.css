@@ -1,0 +1,16 @@
+.topnav{
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    border-bottom: #ccc 2px solid;
+    grid-gap: 1rem;
+}
+
+.hamburger{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: orange;
+    padding: .5rem;
+    text-transform: uppercase;
+}
