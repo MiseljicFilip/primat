@@ -1,3 +1,6 @@
+html{
+  overflow-x: hidden;
+}
 .topnav{
     display: grid;
     grid-template-columns:1fr 1fr ;
@@ -300,7 +303,7 @@ li:hover{
 
 
   .footer {
-    position: fixed; 
+    position: relative; 
     display: flex;
     align-items: baseline;
     justify-content: space-around;
@@ -313,6 +316,7 @@ li:hover{
     color: #5b5f66;
     text-align: center;    
     text-transform: uppercase;
+    margin: 0;
  }
 
  .footer .rdnvreme {
@@ -328,7 +332,21 @@ li:hover{
    margin: 4px 2px;
    cursor: pointer;
  }
-
+.content{
+  margin: 20px;
+}
  .footer .rdnvreme:hover {
-     color: 
+     color: ;
+ }
+ .galerija{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   grid-gap:1rem;
+ }
+ .galerija > img{
+   min-width: 270px;
+   min-height: auto;
+   max-width: 300px;
+   max-height: 300px;
+   border: #ccc 1px solid;
  }
