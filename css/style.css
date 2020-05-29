@@ -336,7 +336,7 @@ li:hover{
   margin: 20px;
 }
  .footer .rdnvreme:hover {
-     color: ;
+     color:;
  }
 }
 .galerija{
@@ -346,9 +346,9 @@ li:hover{
   gap: .5rem;
   grid-auto-flow:dense;
 }
-.galerija img{
-  min-width: 270px;
-  min-height: auto;
+.galerija  img{
+  width: 270px;
+  height: 270px;
   max-width: 300px;
   max-height: 300px;
   border: #ccc 1px solid;
